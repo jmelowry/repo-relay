@@ -1,6 +1,6 @@
 # repo-relay
 
-repo-relay is a CLI tool built with Python, streamlining codebase transformation into markdown or HTML documentation. It's crafted to facilitate code reviews, documentation, and research dissemination within DevOps and SRE workflows.
+repo-relay is a command-line tool developed in Python that simplifies converting codebases into markdown or HTML documentation. It's designed to support code reviews, create documentation, and share research
 
 ## Quick Start
 
