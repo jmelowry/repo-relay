@@ -1,10 +1,12 @@
+#!/usr/bin/env python3
+
+"""walks directories"""
 import os
 import argparse
 import mimetypes
 import html
 import pathspec
 import markdown2
-
 
 def write_to_file_or_print(content: str, output_option: str):
     """Write the content to a file or print it to the console."""
@@ -16,7 +18,6 @@ def write_to_file_or_print(content: str, output_option: str):
             file.write(content)
     else:
         print(content)
-
 
 def get_gitignore(dirpath):
     """Get the .gitignore file if present."""
