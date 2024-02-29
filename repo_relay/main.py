@@ -90,7 +90,9 @@ def create_content(dirpath: str, output_option: str):
             }
         </style>
         """
-        return '<!DOCTYPE html>\n<html>\n<head>\n' + stylesheet + '\n</head>\n<body>\n' + content + '\n</body>\n</html>'
+        return '<!DOCTYPE html>\n<html>\n<head>\n' \
+            + stylesheet + '\n</head>\n<body>\n' \
+            + content + '\n</body>\n</html>'
     else:
         return f"# 📂 **{dirpath.split('/')[-1]}**\n{content}"
 
